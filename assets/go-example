@@ -1,0 +1,29 @@
+$ go get github.com/arekkas/go-dbg
+$ go-dbg
+You made it!
+
+$ cd $GOPATH/src/github.com/arekkas/go-dbg
+$ cd %GOPATH%\src\github.com\arekkas\go-dbg
+$ go run main.go
+You made it!
+
+$ cd basic
+$ go test .
+ok      github.com/ory-am/go-dbg/basics 0.032s
+
+$ go test -race .
+ok      github.com/ory-am/go-dbg/basics 1.068s
+
+$ go test -bench=. .
+PASS
+BenchmarkBar-8  300000000                4.59 ns/op
+ok      github.com/ory-am/go-dbg/basics 1.877s
+
+$ go test -cover .
+ok      github.com/ory-am/go-dbg/basics 0.030s  coverage: 27.3% of statements
+
+$ go run main.go
+
+
+
+

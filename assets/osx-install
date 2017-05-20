@@ -1,0 +1,14 @@
+$ mkdir -p ~/workspace/go
+
+$ echo "PATH=~/workspace/go/bin:$PATH" >> ~/.bash_profile
+$ echo "GOPATH=~/workspace/go" >> ~/.bash_profile
+$ source ~/.bash_profile
+
+$ go
+go version go1.6.2 windows/amd64
+
+
+
+
+
+

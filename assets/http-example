@@ -1,0 +1,7 @@
+$ cd ..
+$ cd http
+$ go run main.go
+# open http://localhost:8090
+# open http://localhost:8090/hi/hello
+
+

@@ -1,0 +1,13 @@
+setx /M PATH "%PATH%;C:\Users\Aeneas\workspace\go\bin"
+setx /M GOPATH "C:\Users\Aeneas\workspace\go"
+
+<close and reopen cmd.exe>
+
+$ go
+go version go1.6.2 windows/amd64
+
+
+
+
+
+
