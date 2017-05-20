@@ -192,7 +192,7 @@ export default class Presentation extends React.Component {
             </Heading>
             <Appear>
               <Heading size={6} fit textColor="white">
-                I work with IntelliJ CE and the Go plugin
+                www.jetbrains.com/go/
               </Heading>
             </Appear>
           </Slide>
